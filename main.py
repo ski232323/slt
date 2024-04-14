@@ -1,7 +1,7 @@
 import requests
 
 # URL de l'API que vous souhaitez interroger
-url = 'https://pokeapi.co/api/v2/pokemon/ditto'
+url = 'https://pokeapi.co/api/v2/pokemon/pikachu'
 
 # Envoi d'une requête GET à l'URL spécifiée
 response = requests.get(url)
