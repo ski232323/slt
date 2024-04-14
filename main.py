@@ -12,5 +12,5 @@ if response.status_code == 200:
     data = response.json()  # Convertir la réponse JSON en un objet Python
     print(data)  # Afficher les données de la réponse
 else:
-    # Si la requête échoue, afficher un message d'erreur avec le code de statut
+    # Si la requête échoue, afficher un message d'erreur avec le code de statut 404
     print('La requête a échoué avec le code de statut:', response.status_code)
